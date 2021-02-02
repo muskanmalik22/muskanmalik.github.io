@@ -1,0 +1,166 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+
+.header {
+  color: black;
+  font-family: fantasy;
+  font-size: 24px;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0;
+  background-color: grey;
+  border: 2px solid black;
+  top: 0;
+  width: 100%
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  text-align: center;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.active {
+  background-color: darkgoldenrod;
+  color: Black;
+}
+
+#main{
+  text-align: center;
+}
+
+.ppic{
+  float: left;
+  margin-left: 2%;
+  border-radius: 5px;
+}
+.biodata{
+  float: right;
+  margin-right: 20%;
+  text-align: center;
+  margin-top: 7%;
+  font-size: 20;
+}
+.me{
+  text-align: center;
+  margin-right: 10%;
+  float: right;
+  width: 500px;
+  color: #555;
+}
+
+.carousel-item{
+  height: 700px;
+  background-color: #555;
+  color: white;
+  margin-top: 3%;
+  position: relative;
+}
+
+.container{
+  position: absolute;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.title {
+  text-align: center;
+}
+
+.skills {
+  padding: 7rem 0;
+  background-color: 
+}
+
+.skills__center {
+  display: flex;
+  align-items: center;
+}
+
+.skills_center .skills_left {
+  flex: 1 1 45%;
+}
+
+.skills_center .skills_right {
+  flex: 1 1 55%;
+}
+
+.skills__box:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.skills__box h4 {
+  font-size: 1.5rem;
+}
+
+.skills_box .skills_ilt {
+  width: 100%;
+  position: relative;
+  height: 0.5rem;
+  background-color: var(--grey);
+  border-radius: 0.5rem;
+}
+
+.skills_box .skills_bar {
+  background-color: var(--default);
+  height: 0.5rem;
+  
+}
+
+.skills__box .html {
+  width: 80%;
+}
+
+.skills__box .css {
+  width: 85%;
+}
+
+.skills__box .javascript {
+  width: 70%;
+}
+
+.skills__box .nodejs {
+  width: 60%;
+}
+.skills__box .python {
+  width: 60%;
+}
+
+.skills__box .c {
+  width: 80%;
+}
+
+.skills__box span {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  font-size: 1.4rem;
+}
+
+.cont-title {
+  text-shadow: 1px 1px 1px#ffffff;
+}
